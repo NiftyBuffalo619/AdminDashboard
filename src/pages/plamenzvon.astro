@@ -1,0 +1,37 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+---
+
+<Layout title="PlamenZvon">
+    <main>
+        <h1><span class="text-gradient">Plamen</span>Zvon</h1>
+		<ul>
+			<h2>Výjezdy</h2>
+			<li></li>
+		</ul>
+    </main>
+    <style>
+		ul {
+			padding: 50px;
+		}
+        *{
+			color:white;
+		}
+		h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+        color:white;
+	}
+    .text-gradient {
+		background-image: var(--accent-gradient-orange);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+    </style>
+</Layout>
